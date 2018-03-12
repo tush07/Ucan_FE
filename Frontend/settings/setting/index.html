@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Theme Header for Ucan</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="../dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+     <!-- font icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style type="text/css">
+    .alignright{
+    float: right;
+    }
+    .ddalignright{
+    float: right !important;
+    }
+    .click {
+    cursor: pointer;
+    padding-bottom: 10px;
+    }
+
+  </style>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../hp/index.html">UCAN</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav alignright">
+            <li>
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input placeholder="Search" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+              </form>
+            </li>
+            <li>
+              <a href="#"><!-- to put space between home and search--></a>
+            </li>
+            <li class="active">
+              <a href="../../hp/index.html">
+                <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-plus"></i>
+                </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-bell"><span class="badge">4</span></i>
+                </a>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      
+     <nav>
+      <ul class="nav nav-tabs">
+        
+          <li class="nav-item active show">
+          <a class="nav-link" data-toggle="tab" href="#personal">Personal</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " data-toggle="tab" href="#expert">Expert</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#interest">Interest</a>
+        </li>
+      
+      </ul>
+      <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active in" id="personal">
+         <p></p>
+            <!-- Page Content -->
+            <div class="container">
+
+              <div class="row">
+
+                
+                <div class="col-md-12">
+                 <div class="page-header">
+                  <h2>Personal Information</h2>
+                </div>
+                <div class="col-md-8">
+
+                  <form >
+
+                    <div class="input-group">
+                      <span class="input-group-addon" >Name</span>
+                      <input type="text" class="form-control" placeholder="Name" id="name" value="John Doe" disabled="true">
+                    </div>
+                    <br>
+                    <div class="input-group">
+                      <span class="input-group-addon" >Username</span>
+                      <input type="text" class="form-control" placeholder="Username" id="username" value="John_Doe" disabled="true">
+                    </div>
+                    <br>
+                    <div class="input-group">
+                      <span class="input-group-addon" >Password</span>
+                      <input type="password" class="form-control" placeholder="Password" id="password" value="John_Doe" disabled="true">
+                       <span class="input-group-addon">
+                        <input type="checkbox" aria-label=""  id="showpass" onclick="myFunction()">Show Password
+                      </span>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                      <span class="input-group-addon" >Email ID</span>
+                      <input type="email" class="form-control" placeholder="johndoe@example.com" id="emailid" value="johndoe@example.com" disabled="true">
+
+                    </div>
+                    <br>
+                    <div class="input-group">
+                      <span class="input-group-addon" >Contact No.</span>
+                      <input type="text" class="form-control" placeholder="Number" id="number" value="+911234567890" disabled="true">
+                    </div>
+                    <br>
+                    <div class="input-group">
+                      <span class="input-group-addon" >Country</span>
+                      <input type="text" class="form-control" placeholder="Country" id="country" value="India" disabled="true">
+                    </div>
+
+                    <div class="page-header">
+                      <h4>Prefered Language</h4>
+                    </div>
+                    <div class="input-group col-md-12">
+                      <span class="input-group-addon">
+                        <input type="checkbox" aria-label="" disabled="true" id="english">
+                      </span>
+                      <!--<input  class="form-control " disabled value="English">-->
+                      <label class="form-control ">English</label>
+
+                      <span class="input-group-addon">
+                        <input type="checkbox" aria-label="" disabled="true" id="arabic">
+                      </span>
+                      <label class="form-control ">Arabic</label>
+
+                      <span class="input-group-addon">
+                        <input type="checkbox" aria-label="" disabled="true" id="russian">
+                      </span>
+                      <label class="form-control ">Russian</label>
+                    </div><!-- /input-group -->
+                    <br>
+
+                    <div class="page-header">
+                      <h4>Prefered Time</h4>
+                    </div>
+
+                    <div class="input-group">
+                      <!-- You can put a for loop for the options I realised quite late how loong it is -->
+                      <span class="input-group-addon">Hour</span>
+                      <input list="hour" class="form-control" placeholder="24 hours system"  disabled="true" id="hours">
+                       <datalist id="hour">
+                        <option value="00">
+                        <option value="01">
+                        <option value="02">
+                        <option value="03">
+                        <option value="04">
+                        <option value="05">
+                        <option value="06">
+                        <option value="07">
+                        <option value="08">
+                        <option value="09">
+                        <option value="10">
+                        <option value="11">
+                        <option value="12">
+                        <option value="13">
+                        <option value="14">
+                        <option value="15">
+                        <option value="16">
+                        <option value="17">
+                        <option value="18">
+                        <option value="19">
+                        <option value="20">
+                        <option value="21">
+                        <option value="22">
+                        <option value="23">
+                      </datalist>
+                      <span class="input-group-addon">Minutes</span>
+                      <input list="minutes" class="form-control" placeholder="24 hours system"  disabled="true" id="minute">
+                       <datalist id="minutes">
+                        <option value="00">
+                        <option value="01">
+                        <option value="02">
+                        <option value="03">
+                        <option value="04">
+                        <option value="05">
+                        <option value="06">
+                        <option value="07">
+                        <option value="08">
+                        <option value="09">
+                        <option value="10">
+                        <option value="11">
+                        <option value="12">
+                        <option value="13">
+                        <option value="14">
+                        <option value="15">
+                        <option value="16">
+                        <option value="17">
+                        <option value="18">
+                        <option value="19">
+                        <option value="20">
+                        <option value="21">
+                        <option value="22">
+                        <option value="23">
+                        <option value="24">
+                        <option value="25">
+                        <option value="26">
+                        <option value="27">
+                        <option value="28">
+                        <option value="29">
+                        <option value="30">
+                        <option value="31">
+                        <option value="32">
+                        <option value="33">
+                        <option value="34">
+                        <option value="35">
+                        <option value="36">
+                        <option value="37">
+                        <option value="38">
+                        <option value="39">
+                        <option value="40">
+                        <option value="41">
+                        <option value="42">
+                        <option value="43">
+                        <option value="44">
+                        <option value="45">
+                        <option value="46">
+                        <option value="47">
+                        <option value="48">
+                        <option value="49">
+                        <option value="50">
+                        <option value="51">
+                        <option value="52">
+                        <option value="53">
+                        <option value="54">
+                        <option value="55">
+                        <option value="56">
+                        <option value="57">
+                        <option value="58">
+                        <option value="59">
+                      </datalist>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary click" style="display: none;" id="buttondis">Disable editing </button>
+                    
+                </form>
+                  <button type="submit" class="btn btn-primary click" style="display: block;" id="buttonen">Enable editing </button>
+
+                    
+                </div>
+                </div>
+
+                 
+
+                </div>
+                <!-- /.row -->
+              </div>
+            <!-- /.container -->
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="tab-pane fade" id="expert">
+          <p></p>
+          <!-- Page Content -->
+            <div class="container">
+
+              <div class="row">
+
+                
+                <div class="col-md-12">
+                 <div class="page-header">
+                    <h2>Expert's Information</h2>
+                  </div>
+                  
+                  <div class="page-header">
+                    <h4>Topics</h4>
+                  </div>
+
+                  <button type="button" class="btn btn-default" disabled="true" id="tag1">Java</button>
+                  <button type="button" class="btn btn-primary" disabled="true" id="tag2">Python</button>
+                  <button type="button" class="btn btn-primary" disabled="true" id="tag3">C++</button>
+
+                  <button type="submit" class="btn btn-primary click alignright" style="display: block;" id="eptopbuttonen">Enable editing </button>
+
+                  <button type="submit" class="btn btn-primary click alignright" style="display: none;" id="eptopbuttondis">Disable editing </button>
+                
+
+                  &nbsp;
+                 <div class="page-header">
+                    <h4>Answers Given</h4>
+                  </div>
+
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Question Title</h3>
+                    </div>
+                     <div class="panel-body">
+                        <p class="card-text">Answer given by the expert</p>
+                    
+                        <p class="text-muted col-md-12">Tags: 
+                           <a href="#" class="btn btn-primary alignright ">Read More &rarr;</a>
+                        </p>
+                        <div class="text-muted">
+                          Posted on January 1, 2017 by
+                          <a href="#">username</a>
+                        </div>
+                      </div>
+                  </div>
+
+
+                  </div>
+                  <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+              </div>
+            
+            <!-- /.container -->
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="tab-pane fade" id="interest">
+          <p></p>
+          <!-- Page Content -->
+            <div class="container">
+
+              <div class="row">
+
+                
+                <div class="col-md-12">
+                <div class="page-header">
+                    <h2>Novice's Information</h2>
+                  </div>
+                  
+                  <div class="page-header">
+                    <h4>Topics</h4>
+                  </div>
+
+                  <button type="button" class="btn btn-primary" disabled="true" id="notag1">Java</button>
+                  <button type="button" class="btn btn-default" disabled="true" id="notag2">Python</button>
+                  <button type="button" class="btn btn-default" disabled="true" id="notag3">C++</button>
+
+                  <button type="submit" class="btn btn-primary click alignright" style="display: block;" id="notopbuttonen">Enable editing </button>
+
+                  <button type="submit" class="btn btn-primary click alignright" style="display: none;" id="notopbuttondis">Disable editing </button>
+                
+
+                  &nbsp;
+                 <div class="page-header">
+                    <h4>Questions Asked</h4>
+                  </div>
+
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Question Title</h3>
+                    </div>
+                     <div class="panel-body">
+                       <!-- <p class="card-text">Answer given by the expert</p>-->
+                    
+                        <p class="text-muted col-md-12">Tags: 
+                           <a href="#" class="btn btn-primary alignright ">Read More &rarr;</a>
+                        </p>
+                        <div class="text-muted">
+                          Posted on January 1, 2017 by
+                          <a href="#">username</a>
+                        </div>
+                      </div>
+                  </div>
+
+
+                </div>
+
+                 
+
+                </div>
+                <!-- /.row -->
+              </div>
+            <!-- /.container -->
+        </div>
+       
+      </div>
+    </nav>
+
+
+    </div> <!-- /container -->
+    <script>
+      function myFunction() {
+          var x = document.getElementById("password");
+          if (x.type === "password") {
+              x.type = "text";
+          } else {
+              x.type = "password";
+          }
+      }
+      </script>
+    <script src="noviceEnableEdit.js"></script>
+    <script src="expertEnableEdit.js"></script>
+    <script src="enableEdit.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
